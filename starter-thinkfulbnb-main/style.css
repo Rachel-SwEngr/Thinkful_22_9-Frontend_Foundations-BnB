@@ -33,6 +33,7 @@ section.alternate-background {
   color: #fff;
 }
 
+
 main img {
   width: 100%;
 }.about-img{
@@ -108,7 +109,7 @@ form {
 
 form label {
   font-weight: bold;
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 form button:hover{
@@ -117,7 +118,7 @@ form button:hover{
 } 
 
 
-form input {
+.form-input {
   justify-content: space-between;
   display: flex;
 }
@@ -133,6 +134,7 @@ form button {
 
 /* -------  Footer ------- */
 
+
 footer {
   background-color: #ff385c;
 }
@@ -142,6 +144,13 @@ footer p {
   text-align: center;
   padding: 20px;
 }
+
+.github-link{
+  text-align: center;
+  padding-top: 30px;
+}
+
+
 
 /* -------  Media Query ------- */
 
@@ -200,7 +209,7 @@ footer p {
   }
 
   .item-double {
-    flex: 1;
+    flex: 2;
     margin: 15px;
   }
 
